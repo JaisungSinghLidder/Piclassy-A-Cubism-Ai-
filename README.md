@@ -20,6 +20,9 @@ Here's a quick summary of the code components:
 - **Selection_Cubism**  
   Uses tournament selection to get fit individuals.
 
+**Important Note**
+I used OpenCV for Computer Vision and had to use CMake so that it could work.
+
 ---
 
 ## 📚 Resources & References
