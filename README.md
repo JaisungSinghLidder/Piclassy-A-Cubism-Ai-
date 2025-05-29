@@ -38,3 +38,14 @@ This project was inspired by:
 [Procedural Paintings with Genetic Evolution Algorithm – Shahriyar Shahrabi](https://shahriyarshahrabi.medium.com/procedural-paintings-with-genetic-evolution-algorithm-6838a6e64703)
 
 ---
+
+### Pictures
+
+
+![Image](https://github.com/user-attachments/assets/6499247b-e147-4f2e-a417-4a41c9b78823) 
+# Cubism Tree
+
+
+
+![Image](https://github.com/user-attachments/assets/a10d2ccd-1805-48cd-9318-e8af0e74ef64)
+# Claw/Hand
