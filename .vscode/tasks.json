@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I", "C:/Users/jaisu/Downloads/opencv/build/include",  // Path to OpenCV headers
+                "-L", "C:/Users/jaisu/Downloads/opencv/build/x64/vc16/lib",  // Path to OpenCV libraries
+                "-o", "${workspaceFolder}/Cubism_Gene_Revised.exe",  // Output executable name
+                "C:/Users/jaisu/Downloads/Piclassy/src/main.cpp",  // Correct path for main.cpp
+                "C:/Users/jaisu/Downloads/Piclassy/src/Fitness_Cubism.cpp",  // Correct path for Fitness_Cubism.cpp
+                "C:/Users/jaisu/Downloads/Piclassy/src/population_cubism.cpp",  // Correct path for population_cubism.cpp
+                "C:/Users/jaisu/Downloads/Piclassy/src/Selection_Cubism.cpp",  // Correct path for Selection_Cubism.cpp
+                "C:/Users/jaisu/Downloads/Piclassy/src/Cubism_Gene_Revised.cpp",  // Correct path for Cubism_Gene_Revised.cpp
+                "-lopencv_core", "-lopencv_imgproc", "-lopencv_highgui"  // Linking OpenCV libraries
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for building the project"
+        }
+    ]
+}
+
